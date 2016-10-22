@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/EvolutionaryAlgorithm.hpp
+
+/home/akrogames/Dev/DevCpp/Kratos/tests/src/kratosTESTS.cpp
+iostream
+-
+gtest/gtest.h
+-
+EvolutionaryAlgorithm.hpp
+-
+

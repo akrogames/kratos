@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Kratos_Tests.dir/src/kratosTESTS.cpp.o  -o Kratos_Tests /usr/lib/libgtest.a -lpthread /home/akrogames/Dev/DevCpp/Kratos/build/Release/libkratos.so -Wl,-rpath,/home/akrogames/Dev/DevCpp/Kratos/build/Release 

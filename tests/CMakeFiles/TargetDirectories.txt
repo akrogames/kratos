@@ -1,0 +1,3 @@
+/home/akrogames/Dev/DevCpp/Kratos/tests/CMakeFiles/edit_cache.dir
+/home/akrogames/Dev/DevCpp/Kratos/tests/CMakeFiles/rebuild_cache.dir
+/home/akrogames/Dev/DevCpp/Kratos/tests/CMakeFiles/Kratos_Tests.dir
