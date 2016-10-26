@@ -6,16 +6,26 @@
 #ifndef KRATOS_EVOLUTIONARYALGORITHM_HPP
 #define KRATOS_EVOLUTIONARYALGORITHM_HPP
 
+#include "core/ProcessNode.hpp"
+#include "variable/RealVariable.hpp"
+
 class EvolutionaryAlgorithm {
 
 public:
-    EvolutionaryAlgorithm(); // Constructor
-    ~EvolutionaryAlgorithm(); // Destructor
+    EvolutionaryAlgorithm();
+    EvolutionaryAlgorithm(EvolutionaryAlgorithm const &) = default; // Copy constructor
+    EvolutionaryAlgorithm(EvolutionaryAlgorithm&&) = default; // Move constructor
+    EvolutionaryAlgorithm& operator=(EvolutionaryAlgorithm const &) = default; // Copy assignment operator
+    EvolutionaryAlgorithm& operator=(EvolutionaryAlgorithm&&) = default; // Move assignment operator
+    ~EvolutionaryAlgorithm() = default; // Destructor
 
-    int showTest();
+
+    EvolutionaryAlgorithm* solve();
+
+    const int getNumberOfNucleus();
 
 private:
-    int test;
+    int numberOfNucleus;
 
 };
 

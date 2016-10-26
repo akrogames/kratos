@@ -7,8 +7,11 @@ using namespace std;
 int main() {
     std::cout << "Running Example...:" << std::endl;
 
-    EvolutionaryAlgorithm ea = EvolutionaryAlgorithm();
-    cout << ea.showTest() << endl;
+    /**
+     * DEFINE PROBLEM CLASS + INTERFACE + Inheritance
+     */
+
+    EvolutionaryAlgorithm* ea = EvolutionaryAlgorithm().solve();
 
     return 0;
 }

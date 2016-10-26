@@ -4,9 +4,20 @@
 
 #include <EvolutionaryAlgorithm.hpp>
 
-EvolutionaryAlgorithm::EvolutionaryAlgorithm() = default;
-EvolutionaryAlgorithm::~EvolutionaryAlgorithm() = default;
+EvolutionaryAlgorithm::EvolutionaryAlgorithm() {
+    this->numberOfNucleus = 100;
+}
 
-int EvolutionaryAlgorithm::showTest() {
-    return 5;
+EvolutionaryAlgorithm* EvolutionaryAlgorithm::solve() {
+    try {
+        RealVariable rv = RealVariable();
+    } catch ( ... ) {
+
+    }
+
+    return this;
+}
+
+const int EvolutionaryAlgorithm::getNumberOfNucleus() {
+    return this->numberOfNucleus;
 }
