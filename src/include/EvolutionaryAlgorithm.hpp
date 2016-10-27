@@ -7,6 +7,7 @@
 #define KRATOS_EVOLUTIONARYALGORITHM_HPP
 
 #include "core/ProcessNode.hpp"
+#include "core/Variable.hpp"
 #include "variable/RealVariable.hpp"
 
 class EvolutionaryAlgorithm {

@@ -10,7 +10,11 @@ EvolutionaryAlgorithm::EvolutionaryAlgorithm() {
 
 EvolutionaryAlgorithm* EvolutionaryAlgorithm::solve() {
     try {
-        RealVariable rv = RealVariable();
+        /**
+         Variable(RealVariable(lowerBound(0)
+         );
+         */
+        Variable rv = Variable();
     } catch ( ... ) {
 
     }

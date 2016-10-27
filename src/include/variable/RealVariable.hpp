@@ -16,6 +16,24 @@ public:
     RealVariable& operator=(RealVariable&&) = default; // Move assignment operator
     ~RealVariable() = default; // Destructor
 
+    
+
+private:
+    /**
+     * The current value of this decision variable.
+     */
+    double value;
+
+    /**
+     * The lower bound of this decision variable.
+     */
+    const double lowerBound;
+
+    /**
+     * The upper bound of this decision variable.
+     */
+    const double upperBound;
+
 
 };
 
